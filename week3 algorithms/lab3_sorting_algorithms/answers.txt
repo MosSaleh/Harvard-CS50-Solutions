@@ -1,0 +1,11 @@
+sort1 uses: bubble sort
+
+How do you know?: There is a big difference on how fast it sorts based on the size of n due to Ο being n^2 and the time it takes for it to sort a sorted list is much less than that of an unsorted due to Ω being n.
+
+sort2 uses: Merge sort
+
+How do you know?: It was by far the fasted when it came to sorting unsorted lists due to the fact that the Ο is (nlog n) and the time it takes it to sort a sorted list compared to an unsorted list is about the same due to Ο and Ω being the same.
+
+sort3 uses: selection sort
+
+How do you know?: The time it takes to sort any list regardless if its sorted or not is about the same and this is due to both Ο and Ω being n^2. It also takes a fair amount of run time because it has to check each individual element, therefore there is a big difference on how fast it runs based on the size of n due to both Ο and Ω being n^2 and it takes the most amount of time on a sorted list due to having the largest Ω of n^2. 
